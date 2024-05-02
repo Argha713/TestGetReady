@@ -1056,7 +1056,7 @@ h2 .boldText{margin-bottom: 5px; display: inline-block;  font-weight: 800; color
 
 
 .aniText:before{
-	content: 'Re-defining';
+	content: 'Private Job';
 	font-size: 100%;
 	animation: animate 6s infinite;	
 }
@@ -1064,43 +1064,43 @@ h2 .boldText{margin-bottom: 5px; display: inline-block;  font-weight: 800; color
 	10%{
 		font-size: 100%;
 		opacity: 1;
-		content: 'Re-defining';
+		content: 'Private Job';
 	}
 	25%{
 		font-size: 100%;
 		opacity: 1;
-		content: 'Re-defining';
+		content: 'Private Job';
 	}
 	
 	25%{
 		font-size: 100%;
 		opacity: 1;
-		content: 'Empowering';
+		content: 'Interviews';
 	}
 	50%{
 		font-size: 100%;
 		opacity: 0;
-		content: 'Empowering';
+		content: 'Interviews';
 	}
 	50%{
 		font-size: 100%;
 		opacity: 1;
-		content: 'Transforming';
+		content: 'Interviews';
 	}
 	75%{
 		font-size: 100%;
 		opacity: 0;		
-		content: 'Transforming';
+		content: 'Government Job Examinations';
 	}
 	75%{
 		font-size: 100%;
 		opacity: 1;
-		content: 'Revolutionising';
+		content: 'Government Job Examinations';
 	}
 	100%{
 		font-size: 90%;
 		opacity: 0;
-		content: 'Revolutionising';
+		content: 'Government Job Examinations';
 	}
 	100%{
 		font-size: 100%;
@@ -1110,65 +1110,55 @@ h2 .boldText{margin-bottom: 5px; display: inline-block;  font-weight: 800; color
 }
 .aniText2 {color: #ee5a23; display: inline-block;}
 .aniText2:before{
-	content: 'Trustworthy';
+	content: 'Skills';
 	font-size: 100%;
-	animation: animate2 12s infinite;	
+	animation: animate2 10s infinite;	
 }
 @keyframes animate2{
 	0%{
 		font-size: 100%;
 		opacity: 1;
-		content: 'Trustworthy';
+		content: 'Skills';
 	}
 	17%{
 		font-size: 100%;
 		opacity: 1;
-		content: 'Trustworthy';
+		content: 'Skills';
 	}
 	25%{
 		font-size: 100%;
-		opacity: 0;		
-		content: 'Trustworthy';
-	}	
-	25%{
-		font-size: 100%;
 		opacity: 1;
-		content: 'Transformative';
+		content: 'Knowledge';
 	}	
 	37%{
 		font-size: 100%;
 		opacity: 1;
-		content: 'Transformative';
+		content: 'Knowledge';
 	}
 	50%{
 		font-size: 100%;
-		opacity: 0;
-		content: 'Transformative';
-	}	
-	50%{
-		font-size: 100%;
 		opacity: 1;
-		content: 'Collaborative';
+		content: 'Knowledge';
 	}
 	67%{
 		font-size: 100%;
 		opacity: 1;
-		content: 'Collaborative';
+		content: 'and Confidence';
 	}
 	75%{
 		font-size: 100%;
 		opacity: 1;
-		content: 'Collaborative';
+		content: 'and Confidence';
 	}
 	75%{
 		font-size: 100%;
 		opacity: 1;
-		content: 'Public Serving';
+		content: 'and Confidence';
 	}
 	100%{
 		font-size: 100%;
 		opacity: 1;
-		content: 'Public Serving';
+		content: 'Skills';
 	}
 	
 	
