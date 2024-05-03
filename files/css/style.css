@@ -952,10 +952,25 @@ h2 .boldText{margin-bottom: 5px; display: inline-block;  font-weight: 800; color
 .list-inline-item .facebookIcon:hover {color: #ffffff; background-color: #285da1;}
 .list-inline-item .twitter {width: 36px; height: 36px;  color: #03a9f4; margin-top: 8px; border-radius: 6px; text-align: center; line-height: 34px; background-color: #e5f6fe; display: block;}
 .list-inline-item .twitter:hover {color: #ffffff; background-color: #03a9f4;}
-.list-inline-item .instagram {width: 36px; height: 36px;  color: #d8163f; margin-top: 8px; border-radius: 6px; text-align: center; line-height: 34px; background-color: #fbe7eb; display: block;}
-.list-inline-item .instagram:hover {color: #ffffff; background-color: #d8163f;}
-.list-inline-item .youtube {width: 36px; height: 36px;  color: #c51f25; margin-top: 8px; border-radius: 6px; text-align: center; line-height: 34px; background-color: #fbe7eb; display: block;}
-.list-inline-item .youtube:hover {color: #ffffff; background-color: #c51f25;}
+.list-inline-item .instagram {
+    width: 36px; 
+    height: 36px;  
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f
+60%, #285aeb 90%);
+    margin-top: 8px; 
+    border-radius: 6px; 
+    text-align: center; 
+    line-height: 34px; 
+    background-color: #fbe7eb; 
+    display: block;
+}
+.list-inline-item .instagram:hover {
+    color: #ffffff; 
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f
+60%, #285aeb 90%);
+}
+.list-inline-item .youtube {width: 36px; height: 36px;  color: #ff0000;; margin-top: 8px; border-radius: 6px; text-align: center; line-height: 34px; background-color: #fbe7eb; display: block;}
+.list-inline-item .youtube:hover {color: #ffffff; background-color: #ff0000;;}
 
 .badge-primary {background-color: #007cec; color: #fff;}
 .color-secondary {color: #006bcb;}
