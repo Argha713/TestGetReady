@@ -1105,17 +1105,17 @@ h2 .boldText{margin-bottom: 5px; display: inline-block;  font-weight: 800; color
 	75%{
 		font-size: 100%;
 		opacity: 0;		
-		content: 'Government Job Examinations';
+		content: 'Government Job';
 	}
 	75%{
 		font-size: 100%;
 		opacity: 1;
-		content: 'Government Job Examinations';
+		content: 'Government Job';
 	}
 	100%{
 		font-size: 90%;
 		opacity: 0;
-		content: 'Government Job Examinations';
+		content: 'Government Job';
 	}
 	100%{
 		font-size: 100%;
