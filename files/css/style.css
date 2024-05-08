@@ -174,11 +174,23 @@ strong, b{
 .ptb-100{
     padding: 100px 0;
 }
+.ptb-0100{
+    padding: 0 0 100px 0;
+}
+.ptb-30{
+    padding: 30px 0;
+}
+.pt-30{
+    padding-top: 30px;
+}
 .pt-100{
     padding-top: 100px;
 }
 .pt-150{
     padding-top: 150px;
+}
+.pb-30{
+    padding-bottom: 40px;
 }
 .pb-100{
     padding-bottom: 100px;
@@ -4160,3 +4172,275 @@ button, [type="button"], [type="reset"], [type="submit"] {
     width: 100%;
 }
 
+
+
+/* Free counseling talk to us section */
+
+
+/* circuler counselling hero section css start */
+.meet-contact {
+    margin-top: 40px;
+  }
+  
+  .main_circle {
+    width: 368px;
+    height: 368px;
+    border: 3px solid #feebed;
+    border-radius: 50%;
+    position: relative;
+    margin: 0 auto;
+  }
+  
+  .main_circle .circleico {
+    display: inline-block;
+    width: 55px;
+    height: 55px;
+    background: #000;
+    border-radius: 20px;
+    position: absolute;
+  }
+  
+  .main_circle .circleico .text {
+    position: absolute;
+    font-size: 14px;
+    line-height: 16px;
+    text-transform: capitalize;
+    left: 50%;
+    width: 200px;
+    bottom: -22px;
+    text-align: center;
+    transform: translate(-50%, 0);
+  }
+  
+  .main_circle .circleico img {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 32px;
+  }
+  
+  .main_circle .circleico:nth-child(1) {
+    left: 50%;
+    top: 0;
+    transform: translate(-50%, -50%);
+    background: #5da901;
+  }
+  
+  .main_circle .circleico:nth-child(2) {
+    left: 100%;
+    top: 20%;
+    transform: translate(-60%, 0);
+    background: #128c7e;
+  }
+  
+  .main_circle .circleico:nth-child(3) {
+    left: 100%;
+    top: 70%;
+    transform: translate(-60%, 0);
+    background: #994505;
+  }
+  
+  .main_circle .circleico:nth-child(4) {
+    left: 50%;
+    top: 100%;
+    transform: translate(-50%, -50%);
+    background: #025122;
+  }
+  
+  .main_circle .circleico:nth-child(5) {
+    left: 0%;
+    top: 20%;
+    transform: translate(-40%, 0);
+    background: #8c5bd8;
+  }
+  
+  .main_circle .circleico:nth-child(6) {
+    left: 0%;
+    top: 70%;
+    transform: translate(-40%, 0);
+    background: #202877;
+  }
+  
+  .main_circle .img {
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    border-radius: 50%;
+    border-radius: 50%;
+  }
+  
+  .main_circle .img .round {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+  }
+  
+  .main_circle .img img {
+    border-radius: 50%;
+    z-index: 1;
+    width: 38px;
+    height: 38px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .main_circle .img:before {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: #007bff;
+    content: "";
+    border-radius: 50%;
+    animation: roundpls 10s linear infinite;
+    animation-delay: 0s;
+  }
+  
+  @keyframes roundpls {
+    0% {
+      transform: scale(0);
+      opacity: 1;
+    }
+  
+    /*99%{transform: scale(4); opacity: 0.1;}*/
+    100% {
+      transform: scale(4);
+      opacity: 0;
+    }
+  }
+  
+  .main_circle .img:after {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: #007bff;
+    content: "";
+    border-radius: 50%;
+    animation: roundpls 10s linear infinite;
+    animation-delay: 2s;
+  }
+  
+  .main_circle .img .round:before {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: #007bff;
+    content: "";
+    border-radius: 50%;
+    animation: roundpls 10s linear infinite;
+    animation-delay: 4s;
+  }
+  
+  .main_circle .img .round:after {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: #007bff;
+    content: "";
+    border-radius: 50%;
+    animation: roundpls 10s linear infinite;
+    animation-delay: 6s;
+  }
+  
+
+/* circuler counselling hero section css end */
+
+
+.careerform {
+}
+
+.careerform p {
+}
+
+.careerform .form-group {
+  margin: 0;
+}
+
+.careerform .form-inline {
+  display: flex;
+}
+
+.careerform .form-inline .form-group:first-child {
+  width: 33%;
+  margin-right: 2%;
+}
+
+.careerform .form-inline .form-group:last-child {
+  width: 65%;
+}
+
+.careerform .form-inline .form-group label {
+  margin: 0 0 15px;
+}
+
+.careerform input {
+  background: none;
+  border: 1px solid #949c9e;
+  border-radius: 5px;
+  width: 100%;
+  padding: 8px 15px;
+  margin: 0 0 15px;
+  color: #2d2d2d;
+}
+
+.careerform select {
+  background: none;
+  border: 1px solid #949c9e;
+  border-radius: 5px;
+  width: 100%;
+  padding: 8px 15px;
+  margin: 0 0 15px;
+  color: #2d2d2d;
+}
+
+.careerform input[type="checkbox"] {
+  width: auto;
+  margin-right: 5px;
+}
+
+.careerform input[type="checkbox"] + label {
+  margin: 0;
+}
+
+.careerform input[type="submit"] {
+  background: #650c12;
+  border: 1px solid #650c12;
+  border-radius: 8px;
+  text-transform: capitalize;
+  font-weight: 600;
+  color: #fff;
+  padding: 10px 15px;
+  transition: 0.5s;
+  margin-bottom: 0;
+  margin-top: -8px;
+}
+
+.careerform input[type="submit"]:hover {
+  background: #ff6728;
+  border: 1px solid #ff6728;
+}
+
+.career_form_holder img {
+  width: 100%;
+  margin-top: 30px;
+}
+
+
+
+/* Free counseling talk to us section end */
