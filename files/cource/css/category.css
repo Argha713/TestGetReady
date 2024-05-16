@@ -1,0 +1,1116 @@
+.wrapper {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    padding-top: 80px
+}
+
+.wrapper1 {
+    position: relative;
+    width: 100%;
+    height: auto
+}
+
+.sec-demo-class .sec-header-group {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%
+}
+
+.sec-header-group .view-all-grp {
+    display: flex;
+    align-items: center;
+    cursor: pointer
+}
+
+.sec-header-group .view-all-grp h3 {
+    color: #00afef;
+    margin-right: 12px;
+    margin-bottom: 0
+}
+
+.sec-header-group .view-all-grp span {
+    display: flex;
+    width: 26px
+}
+
+.demo-class-row {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    align-content: stretch;
+    align-items: stretch;
+    margin: -15px
+}
+
+.demo-class-row .card:first-child {
+    border-radius: 20px
+}
+
+.demo-class-row .card {
+    background: #e2f2ff;
+    background-size: cover;
+    width: calc(25% - 30px);
+    padding: 26px;
+    border-radius: 10px;
+    margin: 15px
+}
+
+.demo-class-row .card .demo-card-title {
+    display: flex;
+    align-items: center;
+    margin-bottom: 90px
+}
+
+.demo-class-row .card .demo-card-title p {
+    color: #474d5c
+}
+
+.demo-class-row .card .demo-card-title span {
+    display: flex;
+    width: 34px;
+    height: 34px;
+    margin-right: 10px
+}
+
+.demo-class-row .card .demo-card-subtitle {
+    padding: 2px 10px;
+    background: #00afef;
+    border-radius: 56.8638px;
+    width: 140px;
+    margin-bottom: 10px
+}
+
+.demo-class-row .card .demo-card-subtitle p {
+    font-size: 10px;
+    line-height: 13px;
+    color: #fff
+}
+
+.demo-class-row .card h2 {
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 35px;
+    color: #06224c;
+    overflow-wrap: break-word
+}
+
+.demo-class-row .card .time-group {
+    display: flex;
+    align-items: center;
+    margin-bottom: 22px
+}
+
+.demo-class-row .card .time-group span {
+    width: 12px;
+    margin-right: 5px
+}
+
+.demo-class-row .card .time-group h6 {
+    color: #474d5c;
+    font-size: 11px;
+    line-height: 13px
+}
+
+.demo-class-row .card button {
+    border-radius: 10px;
+    padding: 15px 18px 14px 21px
+}
+
+.demo-class-row .card button img {
+    width: 10px;
+    height: 13px;
+    margin-right: 7px
+}
+
+@media screen and (max-width:1200px) {
+    .demo-class-row {
+        margin: -12px
+    }
+
+    .demo-class-row .card {
+        margin: 12px;
+        width: calc(33.33% - 24px)
+    }
+}
+
+.sec-intro,
+.sec-highlights,
+.sec-steps,
+.sec-enrol,
+.sec-meet-faculty,
+.sec-demo-class,
+.sec-toppers {
+    position: relative
+}
+
+@media screen and (max-width:1220px) {
+    .wrapper {
+        padding-top: 123px
+    }
+}
+
+@media screen and (min-width:768px) and (max-width:991px) {
+    .wrapper {
+        padding-top: 114px
+    }
+}
+
+@media screen and (max-width:767px) {
+    .wrapper {
+        padding-top: 54px
+    }
+}
+
+@media screen and (max-width:767px) {
+    .header .mob-ic-search {
+        display: flex
+    }
+
+    .header .header-inner .top-menu-cateogires {
+        display: none
+    }
+
+    .header .header-inner .sec-search {
+        display: none
+    }
+}
+
+.sec-home {
+    position: relative
+}
+
+.home-blk {
+    /* background-color: #00afef; */
+    background-image: linear-gradient(93deg, #2a3e5b, #084050);
+    border-radius: 18px
+}
+
+.home-blk .home-blk-inner {
+    padding: 64px 50px 50px;
+    position: relative
+}
+
+.home-blk .home-blk-inner .img-maskgroup {
+    display: flex;
+    max-width: 100%;
+    height: auto;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    top: 0
+}
+
+.home-blk .home-blk-inner .img-maskgroup img {
+    object-fit: cover
+}
+
+.home-blk .home-blk-inner h1 {
+    color: #fff;
+    font-weight: 700
+}
+
+.home-blk .home-blk-inner h3 {
+    color: #fff;
+    font-weight: 400;
+    margin-bottom: 32px
+}
+
+.homeban-row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: flex-start
+}
+
+.homeban-row .card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center
+}
+
+.homeban-row .card:nth-child(1) {
+    width: 70%
+}
+
+.homeban-row .card:nth-child(2) {
+    width: 30%;
+    align-items: center
+}
+
+.homeban-row .card .partner-logo {
+    width: 90%;
+    z-index: 10
+}
+
+.home-blk .home-blk-inner .homeban-row .card p {
+    color: #fff;
+    margin-bottom: 5px;
+    z-index: 10
+}
+
+@media screen and (max-width:991px) {
+
+    .homeban-row .card:nth-child(1),
+    .homeban-row .card:nth-child(2) {
+        width: 100%
+    }
+
+    .homeban-row .card:nth-child(2) {
+        align-items: flex-start
+    }
+
+    .homeban-row .card .partner-logo {
+        width: 50%
+    }
+}
+
+@media screen and (min-width:768px) and (max-width:991px) {
+    .home-blk .home-blk-inner {
+        padding: 40px 30px 30px
+    }
+
+    .home-blk .home-blk-inner h1 {
+        margin-bottom: 12px
+    }
+}
+
+@media screen and (max-width:767px) {
+    .home-blk .home-blk-inner {
+        padding: 22px
+    }
+
+    .home-blk .home-blk-inner h1 {
+        margin-bottom: 8px
+    }
+
+    .home-blk .home-blk-inner p {
+        margin-bottom: 16px
+    }
+}
+
+.sec-popularexams {
+    position: relative
+}
+
+.sec-popularexams .sec-header {
+    margin-bottom: 8px
+}
+
+.exams-row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: stretch;
+    align-content: stretch;
+    justify-content: flex-start;
+    margin-right: -8px;
+    margin-left: -8px
+}
+
+.exams-row .card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    justify-content: flex-start;
+    width: 96px;
+    height: auto;
+    padding: 8px;
+    cursor: pointer
+}
+
+.exams-row .card .eximg-group {
+    display: flex;
+    padding: 16px;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    margin-bottom: 5px;
+    border-radius: 10px
+}
+
+.exams-row .card .g-bg-grey {
+    background-color: #f1f3f9
+}
+
+.exams-row .card .eximg-group .eximg-box {
+    display: flex;
+    width: 48px;
+    height: 48px
+}
+
+.exams-row .card .eximg-group .eximg-box img {
+    border-radius: 50%
+}
+
+.exams-row .card p {
+    font-weight: 400;
+    color: #22252f;
+    opacity: .6;
+    text-align: center;
+    margin-bottom: 0
+}
+
+.exams-row1 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: stretch;
+    align-content: stretch;
+    justify-content: flex-start;
+    margin-right: -8px;
+    margin-left: -8px
+}
+
+.exams-row1 .card {
+    display: flex;
+    flex: 0 0 auto;
+    width: 104px;
+    height: auto;
+    padding: 8px;
+    cursor: pointer
+}
+
+.exams-row1 .card .card-inner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    justify-content: flex-start;
+    padding: 8px;
+    border-radius: 10px;
+    width: 100%
+}
+
+.exams-row1 .card .eximg-group {
+    display: flex;
+    padding-top: 12px;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    margin-bottom: 5px
+}
+
+.exams-row1 .card .eximg-group .eximg-box {
+    display: flex;
+    width: 48px;
+    height: 48px
+}
+
+.exams-row1 .card .eximg-group .eximg-box img {
+    border-radius: 50%
+}
+
+.exams-row1 .card p {
+    font-weight: 400;
+    color: #22252f;
+    opacity: .6;
+    text-align: center;
+    margin-bottom: 0
+}
+
+@media screen and (max-width:991px) {
+    .exams-row1 {
+        flex-wrap: nowrap
+    }
+}
+
+@media screen and (max-width:767px) {
+    .exams-row {
+        margin-left: -6px;
+        margin-right: -6px
+    }
+
+    .exams-row .card {
+        width: 78px;
+        padding: 6px
+    }
+
+    .exams-row .card .eximg-group {
+        padding: 14px;
+        margin-bottom: 4px;
+        border-radius: 8px
+    }
+
+    .exams-row .card .eximg-group .eximg-box {
+        width: 42px;
+        height: 42px
+    }
+
+    .exams-row1 {
+        margin-right: -6px;
+        margin-left: -6px
+    }
+
+    .exams-row1 .card {
+        padding: 6px;
+        width: 99px
+    }
+
+    .exams-row1 .card .card-inner {
+        padding: 6px
+    }
+
+    .exams-row1 .card .eximg-group {
+        padding-top: 6px
+    }
+
+    .exams-row1 .card .eximg-group .eximg-box {
+        width: 42px;
+        height: 42px
+    }
+}
+
+.sec-liveclasses {
+    position: relative
+}
+
+.liveclasses-row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: stretch;
+    align-content: stretch;
+    justify-content: flex-start;
+    margin-right: -5px;
+    margin-left: -5px
+}
+
+.liveclasses-row .card {
+    display: flex;
+    flex: 0 0 auto;
+    width: 285px;
+    padding: 5px
+}
+
+.liveclasses-row .card .card-inner {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    align-content: flex-start;
+    justify-content: flex-start;
+    width: 100%;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 10px
+}
+
+.liveclasses-row .card .card-inner .cname {
+    display: flex;
+    font-size: 10.75px;
+    line-height: 12px;
+    background-color: #00afef;
+    color: #fff;
+    border-radius: 9px;
+    padding: 4px 10px 2px;
+    margin-bottom: 5px
+}
+
+.liveclasses-row .card .card-inner h4 {
+    color: #0a2472;
+    font-weight: 500;
+    margin-bottom: 10px
+}
+
+.liveclasses-row .card .card-inner .date-row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    align-content: center;
+    justify-content: flex-start;
+    margin-bottom: 9px;
+    width: 100%
+}
+
+.liveclasses-row .card .card-inner .date-row .icon {
+    display: flex;
+    width: 11px;
+    height: 11px;
+    margin-right: 4px
+}
+
+.liveclasses-row .card .card-inner .date-row .txt {
+    display: flex;
+    font-size: 11px;
+    line-height: 13px;
+    color: #474d5c;
+    margin-right: 12px
+}
+
+.liveclasses-row .card .card-inner .cfooter {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    align-content: center;
+    justify-content: space-between;
+    width: 100%
+}
+
+.liveclasses-row .card .card-inner .cfooter .col {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    align-content: center;
+    justify-content: flex-start
+}
+
+.liveclasses-row .card .card-inner .cfooter .col .ic-faculty {
+    display: flex;
+    width: 20px;
+    height: 20px
+}
+
+.liveclasses-row .card .card-inner .cfooter .col .ic-faculty img {
+    border-radius: 50%
+}
+
+.liveclasses-row .card .card-inner .cfooter .col .ic-faculty:not(:first-child) {
+    margin-left: -6px
+}
+
+.liveclasses-row .card .card-inner .cfooter .col .btn {
+    flex-flow: row nowrap
+}
+
+.liveclasses-row .card .card-inner .cfooter .col .btn .ic-unlock {
+    display: flex;
+    width: 11px;
+    height: 12px;
+    margin-right: 3px
+}
+
+@media screen and (max-width:991px) {
+    .liveclasses-row {
+        flex-wrap: nowrap
+    }
+
+    .liveclasses-row .card {
+        width: 251px
+    }
+}
+
+.sec-courses {
+    position: relative
+}
+
+.courses-row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: flex-start;
+    align-content: flex-start;
+    justify-content: flex-start;
+    margin-right: -8px;
+    margin-left: -8px
+}
+
+.courses-row .card {
+    display: flex;
+    flex: 0 0 auto;
+    width: 216px;
+    padding: 8px
+}
+
+.courses-row .card .card-inner {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    align-content: flex-start;
+    justify-content: center;
+    width: 100%;
+    cursor: pointer;
+    border-radius: 8px
+}
+
+.courses-row .card .card-inner span {
+    display: flex;
+    width: 100%;
+    max-width: 100%;
+    margin-bottom: 12px
+}
+
+.courses-row .card .card-inner span img {
+    border-radius: 10px
+}
+
+.courses-row .card .card-inner h5 {
+    display: flex;
+    color: #474d5c;
+    text-align: center;
+    padding: 0 6px;
+    margin-bottom: 6px
+}
+
+@media screen and (max-width:991px) {
+    .couses-row {
+        flex-wrap: nowrap
+    }
+
+    .courses-row {
+        margin-right: -6px;
+        margin-left: -6px
+    }
+
+    .courses-row .card {
+        width: 156px;
+        padding: 6px
+    }
+}
+
+.sec-testseries {
+    position: relative
+}
+
+.testseries-row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: stretch;
+    align-content: stretch;
+    justify-content: flex-start;
+    margin-right: -8px;
+    margin-left: -8px
+}
+
+.testseries-row .card {
+    display: flex;
+    flex: 0 0 auto;
+    width: 360px;
+    padding: 8px
+}
+
+.testseries-row .card .card-inner {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    align-content: flex-start;
+    justify-content: flex-start;
+    width: 100%;
+    cursor: pointer;
+    padding: 22px;
+    border-radius: 14px;
+    background-color: #f1f3f9
+}
+
+.testseries-row .card .card-inner h3 {
+    color: #0a2472;
+    font-weight: 500;
+    margin-bottom: 8px;
+    margin-top: 8px
+}
+
+.testseries-row .card .card-inner .testinfo-row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    align-content: center;
+    justify-content: flex-start;
+    margin-bottom: 24px;
+    width: 100%
+}
+
+.testseries-row .card .card-inner .testinfo-row .icon {
+    display: flex;
+    margin-right: 6px
+}
+
+.testseries-row .card .card-inner .testinfo-row .ic1 {
+    width: 14px;
+    height: 9px
+}
+
+.testseries-row .card .card-inner .testinfo-row .ic2 {
+    width: 11.67px;
+    height: 11.67px
+}
+
+.testseries-row .card .card-inner .testinfo-row .ic3 {
+    width: 13px;
+    height: 13px
+}
+
+.testseries-row .card .card-inner .testinfo-row .txt {
+    display: flex;
+    font-size: 12px;
+    line-height: 14px;
+    color: #70778b;
+    margin-right: 20px;
+    white-space: nowrap
+}
+
+.testseries-row .card .card-inner .btn {
+    flex-flow: row nowrap;
+    padding: 8px 16px;
+    border-radius: 5px
+}
+
+.testseries-row .card .card-inner .btn .ic-gift {
+    display: flex;
+    width: 11px;
+    height: 11px;
+    margin-right: 3px
+}
+
+@media screen and (min-width:992px) and (max-width:1200px) {
+    .testseries-row .card .card-inner {
+        padding: 16px
+    }
+
+    .testseries-row .card .card-inner .testinfo-row .icon {
+        margin-right: 4px
+    }
+
+    .testseries-row .card .card-inner .testinfo-row .txt {
+        margin-right: 10px
+    }
+}
+
+@media screen and (max-width:991px) {
+    .testseries-row {
+        flex-wrap: nowrap
+    }
+
+    .testseries-row {
+        margin-right: -6px;
+        margin-left: -6px
+    }
+
+    .testseries-row .card {
+        width: 272px;
+        padding: 6px
+    }
+
+    .testseries-row .card .card-inner {
+        padding: 14px;
+        border-radius: 10px
+    }
+
+    .testseries-row .card .card-inner h3 {
+        margin-top: 0
+    }
+
+    .testseries-row .card .card-inner .testinfo-row .txt {
+        font-size: 10px;
+        line-height: 13px;
+        margin-right: 8px
+    }
+
+    .testseries-row .card .card-inner .testinfo-row .icon {
+        margin-right: 4px
+    }
+
+    .testseries-row .card .card-inner .testinfo-row .ic1 {
+        width: 11px;
+        height: 6.5px
+    }
+
+    .testseries-row .card .card-inner .testinfo-row .ic2 {
+        width: 9.17px;
+        height: 9.17px
+    }
+
+    .testseries-row .card .card-inner .testinfo-row .ic3 {
+        width: 10px;
+        height: 10px
+    }
+
+    .testseries-row .card .card-inner .btn {
+        font-size: 10px;
+        line-height: 13px;
+        padding: 5px 10px
+    }
+}
+
+.sec-obplanbanner {
+    position: relative
+}
+
+.obplanbanner-blk {
+    border-radius: 18px
+}
+
+.obplanbanner-blk:first-child {
+    margin-bottom: 36px
+}
+
+.obplanbanner-blk .obplanbanner-blk-inner {
+    padding: 30px;
+    position: relative
+}
+
+.obplanbanner-blk .obplanbanner-blk-inner .img-maskgroup {
+    display: flex;
+    max-width: 100%;
+    height: auto;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    top: 0;
+    z-index: 1
+}
+
+.obplanbanner-blk .obplanbanner-blk-inner .img-maskgroup img {
+    object-fit: cover
+}
+
+.obplanbanner-blk .obplanbanner-blk-inner .h236 {
+    color: #fff;
+    font-weight: 700;
+    margin-bottom: 4px
+}
+
+.obplanbanner-blk .obplanbanner-blk-inner h3 {
+    color: #fff;
+    margin-bottom: 22px
+}
+
+.obplanbanner-blk .obplanbanner-blk-inner .btn-md {
+    position: relative;
+    z-index: 10
+}
+
+@media screen and (max-width:991px) {
+    .obplanbanner-blk {
+        border-radius: 12px
+    }
+
+    .obplanbanner-blk:first-child {
+        margin-bottom: 20px
+    }
+
+    .obplanbanner-blk .obplanbanner-blk-inner {
+        padding: 20px
+    }
+
+    .obplanbanner-blk .obplanbanner-blk-inner h3 {
+        margin-bottom: 16px
+    }
+}
+
+.sec-testimonial {
+    position: relative
+}
+
+.testimonial-row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    align-content: flex-start;
+    justify-content: flex-start;
+    margin-right: -15px;
+    margin-left: -15px
+}
+
+.testimonial-row .card {
+    display: flex;
+    flex: 0 0 auto;
+    width: 33.33%;
+    padding: 15px
+}
+
+.testimonial-row .card .card-inner {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    align-content: flex-start;
+    justify-content: flex-end;
+    background-color: #fff;
+    width: 100%
+}
+
+.testimonial-row .card .card-inner .box-content-outer {
+    position: relative
+}
+
+.testimonial-row .card .card-inner .box-content-outer .box-darrow {
+    display: flex;
+    width: 0;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-top: 10px solid #f1f3f9;
+    position: absolute;
+    bottom: 6px;
+    left: 16px
+}
+
+.testimonial-row .card .card-inner .box-content {
+    display: flex;
+    flex-direction: column;
+    padding: 22px 44px 22px 22px;
+    background-color: #f1f3f9;
+    border-radius: 13px;
+    margin-bottom: 16px
+}
+
+.testimonial-row .card .card-inner .box-content .p16 {
+    color: #474d5c
+}
+
+.testimonial-row .card .card-inner .box-header {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    align-content: center;
+    justify-content: flex-start
+}
+
+.testimonial-row .card .card-inner .box-header span {
+    display: flex;
+    width: 52px;
+    height: 52px;
+    margin-right: 12px
+}
+
+.testimonial-row .card .card-inner .box-header span img {
+    border-radius: 50%
+}
+
+.testimonial-row .card .card-inner .box-header .student-details {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    align-content: flex-start;
+    justify-content: center
+}
+
+.testimonial-row .card .card-inner .box-header .student-details h3 {
+    margin-bottom: 0
+}
+
+.testimonial-row .card .card-inner .box-header .student-details p {
+    margin-bottom: 0;
+    font-size: 13px;
+    color: #8c94ab;
+    line-height: 16px
+}
+
+@media screen and (max-width:991px) {
+    .testimonial-row {
+        flex-wrap: nowrap;
+        margin-right: -6px;
+        margin-left: -6px
+    }
+
+    .testimonial-row .card {
+        width: 290px;
+        padding: 0 6px
+    }
+
+    .testimonial-row .card .card-inner .box-content {
+        padding: 16px;
+        margin-bottom: 12px;
+        border-radius: 10px
+    }
+
+    .testimonial-row .card .card-inner .box-header span {
+        width: 39px;
+        height: 39px;
+        margin-right: 8px
+    }
+
+    .testimonial-row .card .card-inner .box-content-outer .box-darrow {
+        left: 10px
+    }
+}
+
+.sec-resources {
+    position: relative
+}
+
+.resources-row {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    align-content: stretch;
+    margin-left: -15px;
+    margin-right: -15px
+}
+
+.resources-row .card {
+    display: flex;
+    flex: 0 0 auto;
+    width: 33.33%;
+    padding: 0 15px
+}
+
+.resources-row .card .card-inner {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-content: flex-start;
+    align-items: flex-start;
+    padding: 24px;
+    background-color: #f1f3f9;
+    border-radius: 16px;
+    width: 100%
+}
+
+.resources-row .card .card-inner h4 {
+    margin-bottom: 8px;
+    font-weight: 700
+}
+
+.resources-row .card .card-inner .res-items {
+    list-style-type: none;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-content: flex-start;
+    align-items: flex-start
+}
+
+.resources-row .card .card-inner .res-items a {
+    display: flex;
+    font-size: 12px;
+    line-height: 14px;
+    color: #22252f;
+    font-weight: 500;
+    background-color: #fff;
+    border: 1px solid #e2e5ef;
+    border-radius: 4px;
+    padding: 8px 12px;
+    cursor: pointer;
+    margin-bottom: 5px;
+    width: 100%
+}
+
+.resources-row .card .card-inner .res-items a:hover,
+.resources-row .card .card-inner .res-items a:focus {
+    color: #00afef
+}
+
+.resources-row .card .card-inner .btn-res-viewmore {
+    background-color: #00afef;
+    color: #fff;
+    font-weight: 700
+}
+
+@media screen and (max-width:991px) {
+    .resources-row {
+        margin-left: -6px;
+        margin-right: -6px
+    }
+
+    .resources-row .card {
+        width: 272px;
+        padding: 6px
+    }
+
+    .resources-row .card .card-inner {
+        padding: 12px;
+        border-radius: 10px
+    }
+}
